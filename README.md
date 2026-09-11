@@ -11,13 +11,14 @@ I build AI workflow automation with **n8n** and **LLMs**, turning repetitive man
 - **APIs & apps:** REST, webhooks, JSON, Google Sheets / Drive / Gmail, Telegram Bot API, WhatsApp Cloud API
 - **Scripting:** JavaScript (n8n Code nodes); Python (in progress)
 
-### Selected projects
+### Projects
 
 | Project | What it does |
 |---|---|
-| **Invoice Extractor** | Invoice photo → two LLMs cross-check the data → validation & math check → human-in-the-loop → Google Sheets |
-| **AI Order Tracker** | Free-form order messages → AI extracts structured data → Google Sheets + auto-confirmation |
-| **Lead Capture Automation** | Webhook pipeline: validate, deduplicate, score, notify via Telegram, auto-reply by email |
+| **[invoice-extractor-n8n](https://github.com/christhiandonnylacandu/invoice-extractor-n8n)** | n8n workflow — invoice photo via Telegram → two LLMs cross-check → validation & math check → human-in-the-loop → Google Sheets |
+| **[invoice-extractor-py](https://github.com/christhiandonnylacandu/invoice-extractor-py)** | Python CLI port of the same pipeline, calling the Groq & Anthropic APIs directly |
+| **AI Order Tracker** *(publishing soon)* | Free-form order messages → AI extracts structured data → Google Sheets + auto-confirmation |
+| **Lead Capture Automation** *(publishing soon)* | Webhook pipeline: validate, deduplicate, score, notify via Telegram, auto-reply by email |
 | **RAG chatbot** *(in progress)* | Question answering over custom documents with a vector database |
 
 ### Background
